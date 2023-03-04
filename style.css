@@ -1,0 +1,74 @@
+body{
+    width: 600px;
+    margin:auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.control{
+    display: flex;
+    margin-top: 10px;
+    
+}
+
+#content{
+    width: 400px;
+    height: 50px; 
+    padding:5px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.control button{
+    width: 75px;
+    height: 61px;
+    background-color: #66CCCC;
+    margin-left:5px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: bold;  
+    cursor: pointer;
+}
+
+.mylist{
+    width: 500px;
+}
+
+.mylist h3{
+    text-transform: uppercase;
+   
+}
+
+.mylist ul{
+    list-style: none;
+    padding: 0px;
+    margin:0px;
+}
+
+.mylist ul li{
+    display: flex;
+    padding: 5px; 
+    margin-bottom: 10px; 
+    border-radius: 5px;
+    background-color: #DDDDDD; 
+}
+
+.mylist ul li div{
+    width: 80%;
+    padding: 5px;
+   
+    
+}
+
+.mylist ul li a{
+    text-decoration: none;
+    display: block;
+    margin-right: 10px;
+    color: #0033FF;
+    padding:5px;
+    cursor: pointer;
+}
+
+
+.mylist ul li a:nth-of-type(2){
+    color: #FF0000;
+}
